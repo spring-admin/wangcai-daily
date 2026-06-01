@@ -2,6 +2,7 @@ baseURL = "https://spring-admin.github.io/wangcai-daily/"
 languageCode = "zh-CN"
 title = "旺财日报"
 theme = "PaperMod"
+defaultContentLanguage = "zh"
 
 [params]
   description = "由旺仔整理的每日资讯简报"
@@ -26,7 +27,3 @@ theme = "PaperMod"
 
 [markup.goldmark.renderer]
   unsafe = true
-
-[languages.zh]
-  languageName = "中文"
-  weight = 1
