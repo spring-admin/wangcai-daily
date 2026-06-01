@@ -227,7 +227,7 @@ def generate_page(sections):
       <div class="post-date">📅 {today_display}</div>
       {body_html}
       <div class="footer">
-        <p>由 AI 助手旺财自动整理发布 · <a href="/wangcai-daily/">返回首页</a> · <a href="/wangcai-daily/feed.xml">RSS 订阅</a></p>
+        <p>由旺仔整理发布 · <a href="/wangcai-daily/">返回首页</a> · <a href="/wangcai-daily/feed.xml">RSS 订阅</a></p>
       </div>
     </div>
   </div>
@@ -281,7 +281,7 @@ def generate_index(existing_pages):
   <header>
     <div class="container">
       <h1>🐶 旺财日报</h1>
-      <p>由旺财整理的每日资讯简报 · 每天中午更新</p>
+      <p>由旺仔整理的每日资讯简报 · 每天更新</p>
       <a class="rss-link" href="feed.xml">📡 RSS 订阅</a>
     </div>
   </header>
@@ -292,7 +292,7 @@ def generate_index(existing_pages):
     </div>
   </div>
   <div class="footer">
-    <p>由 AI 助手旺财自动整理发布 · 数据来源：OpenClaw 定时任务</p>
+    <p>由旺仔整理发布</p>
     <p style="margin-top:5px;"><a href="https://github.com/spring-admin/wangcai-daily">GitHub 仓库</a></p>
   </div>
 </body>
