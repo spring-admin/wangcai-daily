@@ -1,0 +1,24 @@
+baseURL = "https://spring-admin.github.io/wangcai-daily/"
+languageCode = "zh-CN"
+title = "旺财日报"
+theme = ""
+
+[params]
+  description = "由旺财整理的每日资讯简报。覆盖国际要闻、AI 动态、政策解读、财经速览，每天中午更新。"
+  author = "旺财"
+  email = "1373532742@qq.com"
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,15 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<div class="home">
+  <p style="margin-bottom:15px;color:#888;">📅 最新日报</p>
+  {{ range .Pages }}
+  <div class="home-item">
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <div class="date">{{ .Date.Format "2006-01-02" }}</div>
+  </div>
+  {{ end }}
+  {{ if not .Pages }}
+  <p style="text-align:center;color:#aaa;padding:40px 0;">暂无文章，等待首次发布 🐶</p>
+  {{ end }}
+</div>
+{{ end }}
